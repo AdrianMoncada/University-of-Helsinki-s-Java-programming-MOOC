@@ -5,8 +5,8 @@ public class AverageOfNumbers {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int sum = 0;
-        int amount = 0;
+        double sum = 0;
+        double amount = 0;
 
         while (true) {
             System.out.println("Give a number:");
@@ -19,7 +19,8 @@ public class AverageOfNumbers {
             sum = sum + number;
             amount = amount + 1;
         }
-
-        System.out.println("Average of the numbers:" + (sum / amount));
+        
+        double average = sum / amount;
+        System.out.println("Average of the numbers: " + average);
     }
 }
