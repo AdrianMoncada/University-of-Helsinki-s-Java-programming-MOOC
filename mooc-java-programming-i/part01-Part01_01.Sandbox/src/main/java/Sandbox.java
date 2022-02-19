@@ -1,15 +1,14 @@
+
 import java.util.Scanner;
 
 public class Sandbox {
 
     public static void main(String[] args) {
-        // Create a tool for reading user input and name it scanner
-        Scanner scanner = new Scanner(System.in);
+        int timesRocioSaidO = 14;
 
-        int dividend = 3;
-        int divisor = 2;
+        if (timesRocioSaidO == 14) {
+            System.out.print("Cristian S. David M: wtf");
+        }
 
-        double result = dividend / divisor * 1.0;
-        System.out.println(result);
     }
 }
