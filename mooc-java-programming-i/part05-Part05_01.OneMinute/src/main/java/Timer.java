@@ -27,5 +27,5 @@ public class Timer {
     
     public String toString(){
         return seconds + ":" + miliseconds;
-    }
+    }    
 }
